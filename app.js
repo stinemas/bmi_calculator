@@ -12,7 +12,7 @@ function updateView() {
         <div id="container">
             <input onchange="heightInp(this.value)" type="text" id="height" placeholder="høyde (i cm)"><br>
             <input onchange="weightInp(this.value)" type="text" id="weight" placeholder="vekt (i kg)"><br>
-            <button id="btn" onclick="calcBMI()">Calculate</button>
+            <button id="btn" onclick="calcBMI()">Kalkuler</button>
             <div id="result">${result}</div>
         </div>
     `;
